@@ -14,7 +14,7 @@
       "category": "Bakery",
       "sku": "BAK-001",
       "price": 2.75,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": "3",
@@ -42,6 +42,32 @@
     }
   ],
   "orders": [
+    {
+      "id": "ORD-658360",
+      "timestamp": "2026-10-26T13:41:32.981Z",
+      "customer": {
+        "name": "Raju",
+        "phone": "2314567890"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Artisanal Croissant",
+          "category": "Bakery",
+          "sku": "BAK-001",
+          "price": 2.75,
+          "stock": 11,
+          "qty": 1
+        }
+      ],
+      "subtotal": 2.75,
+      "tax": 0.22,
+      "total": 2.97,
+      "amountPaid": 2.97,
+      "dueAmount": 0,
+      "paymentMethod": "Cash",
+      "synced": false
+    },
     {
       "id": "ORD-234184",
       "timestamp": "2026-10-26T13:41:06.367Z",
@@ -75,7 +101,7 @@
       "amountPaid": 6.21,
       "dueAmount": 0,
       "paymentMethod": "Cash",
-      "synced": false
+      "synced": true
     },
     {
       "id": "ORD-191615",
@@ -352,5 +378,5 @@
       "synced": true
     }
   ],
-  "lastUpdated": "2026-10-26T13:41:07.153Z"
+  "lastUpdated": "2026-10-26T13:41:33.625Z"
 }
