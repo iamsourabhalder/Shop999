@@ -13,5 +13,20 @@
     "images": [
       "https://placehold.co/400x400/2563eb/ffffff?text=Earbuds"
     ]
+  },
+  {
+    "id": "p_1793021491311",
+    "title": "Tv",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "price": 25000,
+    "originalPrice": 12000,
+    "rating": 4.5,
+    "inStock": true,
+    "specs": "2m",
+    "description": "Good condition product",
+    "images": [
+      "https://raw.githubusercontent.com/iamsourabhalder/shop999/main/images/img_1793021440107_984.jpg"
+    ]
   }
 ]
