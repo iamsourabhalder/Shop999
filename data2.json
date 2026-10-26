@@ -1,1 +1,17 @@
-
+[
+  {
+    "id": "p_fallback_1",
+    "title": "Sample Wireless Earbuds",
+    "brand": "Boat",
+    "category": "Audio",
+    "price": 1299,
+    "originalPrice": 2999,
+    "rating": 4.4,
+    "inStock": true,
+    "specs": "1 Year Warranty",
+    "description": "High bass wireless earbuds with active noise cancellation and fast charging.",
+    "images": [
+      "https://placehold.co/400x400/2563eb/ffffff?text=Earbuds"
+    ]
+  }
+]
