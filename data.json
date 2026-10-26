@@ -14,7 +14,7 @@
       "category": "Bakery",
       "sku": "BAK-001",
       "price": 2.75,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "category": "Beverages",
       "sku": "BEV-002",
       "price": 3,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": "4",
@@ -42,6 +42,41 @@
     }
   ],
   "orders": [
+    {
+      "id": "ORD-234184",
+      "timestamp": "2026-10-26T13:41:06.367Z",
+      "customer": {
+        "name": "Raju",
+        "phone": "1235806947"
+      },
+      "items": [
+        {
+          "id": "3",
+          "name": "Organic Green Tea",
+          "category": "Beverages",
+          "sku": "BEV-002",
+          "price": 3,
+          "stock": 25,
+          "qty": 1
+        },
+        {
+          "id": "2",
+          "name": "Artisanal Croissant",
+          "category": "Bakery",
+          "sku": "BAK-001",
+          "price": 2.75,
+          "stock": 12,
+          "qty": 1
+        }
+      ],
+      "subtotal": 5.75,
+      "tax": 0.46,
+      "total": 6.21,
+      "amountPaid": 6.21,
+      "dueAmount": 0,
+      "paymentMethod": "Cash",
+      "synced": false
+    },
     {
       "id": "ORD-191615",
       "timestamp": "2026-10-26T13:38:40.009Z",
@@ -238,7 +273,7 @@
       "amountPaid": 9.9,
       "dueAmount": 0.08999999999999986,
       "paymentMethod": "Online",
-      "synced": false
+      "synced": true
     },
     {
       "id": "ORD-741663",
@@ -317,5 +352,5 @@
       "synced": true
     }
   ],
-  "lastUpdated": "2026-10-26T13:39:23.776Z"
+  "lastUpdated": "2026-10-26T13:41:07.153Z"
 }
