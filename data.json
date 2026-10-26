@@ -14,7 +14,7 @@
       "category": "Bakery",
       "sku": "BAK-001",
       "price": 2.75,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "category": "Beverages",
       "sku": "BEV-002",
       "price": 3,
-      "stock": 26
+      "stock": 25
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "category": "Food",
       "sku": "FOD-001",
       "price": 8.5,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": "5",
@@ -42,6 +42,50 @@
     }
   ],
   "orders": [
+    {
+      "id": "ORD-191615",
+      "timestamp": "2026-10-26T13:38:40.009Z",
+      "customer": {
+        "name": "Raju",
+        "phone": "2314567890"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Artisanal Croissant",
+          "category": "Bakery",
+          "sku": "BAK-001",
+          "price": 2.75,
+          "stock": 13,
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Avocado Toast",
+          "category": "Food",
+          "sku": "FOD-001",
+          "price": 8.5,
+          "stock": 13,
+          "qty": 1
+        },
+        {
+          "id": "3",
+          "name": "Organic Green Tea",
+          "category": "Beverages",
+          "sku": "BEV-002",
+          "price": 3,
+          "stock": 26,
+          "qty": 1
+        }
+      ],
+      "subtotal": 14.25,
+      "tax": 1.1400000000000001,
+      "total": 15.39,
+      "amountPaid": 15.39,
+      "dueAmount": 0,
+      "paymentMethod": "Cash",
+      "synced": false
+    },
     {
       "id": "ORD-597692",
       "timestamp": "2026-10-26T10:28:57.145Z",
@@ -75,7 +119,7 @@
       "amountPaid": 6.21,
       "dueAmount": 0,
       "paymentMethod": "Cash",
-      "synced": false
+      "synced": true
     },
     {
       "id": "ORD-859439",
@@ -101,7 +145,7 @@
       "amountPaid": 3.7800000000000002,
       "dueAmount": 0,
       "paymentMethod": "Cash",
-      "synced": false
+      "synced": true
     },
     {
       "id": "ORD-154023",
@@ -154,7 +198,7 @@
       "amountPaid": 18.9,
       "dueAmount": 0,
       "paymentMethod": "Cash",
-      "synced": false
+      "synced": true
     },
     {
       "id": "ORD-297243",
@@ -194,7 +238,7 @@
       "amountPaid": 9,
       "dueAmount": 0.9900000000000002,
       "paymentMethod": "Online",
-      "synced": false
+      "synced": true
     },
     {
       "id": "ORD-741663",
@@ -223,7 +267,7 @@
       "tax": 0.72,
       "total": 9.72,
       "paymentMethod": "Cash",
-      "synced": false
+      "synced": true
     },
     {
       "id": "ORD-956741",
@@ -270,8 +314,8 @@
       "tax": 1.62,
       "total": 21.87,
       "paymentMethod": "Cash",
-      "synced": false
+      "synced": true
     }
   ],
-  "lastUpdated": "2026-10-26T13:05:21.699Z"
+  "lastUpdated": "2026-10-26T13:38:42.251Z"
 }
